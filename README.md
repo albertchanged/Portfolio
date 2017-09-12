@@ -1,6 +1,8 @@
-# [Albert Chang's](https://www.linkedin.com/in/albertchanged) Portfolio Website
+# [Albert Chang](https://www.linkedin.com/in/albertchanged)'s Portfolio Website
 
-This is a culmination of nearly everything I have learned over the past 2 years of web and front end development.
+An elegant, responsive, and user-friendly portfolio website.
+
+It is a culmination of nearly everything I have learned over the past 2 years of web and front end development!
 
 ## Check it out below!
 
