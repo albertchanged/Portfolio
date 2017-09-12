@@ -1,5 +1,3 @@
-
-
 var $portfoliorow1 = $('.portfoliorow1');
 var $portfoliorow2 = $('.portfoliorow2');
 
@@ -11,18 +9,20 @@ var $about3 = $('.aboutsection3');
 
 var $window = $(window);
 
+
 function check_if_in_view() {
   var window_height = $window.height();
   var window_top_position = $window.scrollTop();
   var window_bottom_position = (window_top_position + window_height);
-  
+
+  // Each Portfolio row
   $.each($portfoliorow1, function() {
     var $element = $(this);
     var element_height = $element.outerHeight();
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
  
-    //check to see if this current container is within viewport
+    // Check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
@@ -44,13 +44,15 @@ function check_if_in_view() {
       $element.removeClass('in-view');
     }
   });
+
+  // Each About block
   $.each($about1, function() {
     var $element = $(this);
     var element_height = $element.outerHeight();
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
  
-    //check to see if this current container is within viewport
+    // Check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
@@ -64,7 +66,7 @@ function check_if_in_view() {
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
  
-    //check to see if this current container is within viewport
+    // Check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
@@ -87,6 +89,7 @@ function check_if_in_view() {
     }
   });
 
+  // Each Skill box
   $.each($skill, function(i) {
     var $element = $(this);
 
@@ -94,7 +97,7 @@ function check_if_in_view() {
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
  
-    //check to see if this current container is within viewport
+    // Check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
