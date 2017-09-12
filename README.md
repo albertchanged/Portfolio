@@ -1,27 +1,24 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+# [Albert Chang's](https://www.linkedin.com/in/albertchanged) Portfolio Website
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+This is a culmination of nearly everything I have learned over the past 2 years of development.
 
-## Getting Started
+## Toughest but most fun parts
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* Fork the repo
+There were many steps in building this, so I will just discuss the three most difficult ones.
 
-## Bugs and Issues
+I designed the homepage artwork SVG in Adobe Illustrator. Then I used CSS animations to create the 'CODE' and music notes visuals. I also learned a new way to keep an object in place as it rotates, so once I applied that to the head, I synchronized the head bob with the other animations.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+Next, I made CSS hover transitions on the skill boxes follow the direction of their page placement (corner-wise and edge-wise). Try them out when you get to the Skills section!
+
+Lastly, I edited border radii of the objects on the About section, divided the Portfolio section into two rows, and assigned both of them CSS animations. I then utilized jQuery and ES6 JavaScript to watch scroll events, which trigger the animations when the user scrolls the respective objects into view.
+
+## Technologies Used
+
+FRONT END: Bootstrap, HTML5, CSS3, Sass/Scss
+BACK END: ES6 JavaScript, jQuery, PHP
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Made with love by Albert Chang, 2017.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Connect with me! [LinkedIn](https://www.linkedin.com/in/albertchanged)
