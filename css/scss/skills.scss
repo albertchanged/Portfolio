@@ -1,0 +1,380 @@
+section.skills {
+  padding: 55px 0;
+  /*padding: 60px 0;*/
+  /*top: 60px;*/
+  /*position: relative;*/
+  background: #F4F4F4;
+  color: black;
+  /*padding-bottom: 7.5%;*/
+}
+
+.skillbox, .skillinfo_middle {
+  cursor: pointer;
+}
+
+/*body {
+  cursor: pointer;
+}
+*/
+.skillsh2 {
+  color: black;
+  font-weight: 300;
+  margin-top: -2px;
+}
+
+.skillshr {
+  margin-top: 30px;
+  margin-bottom: 17.5px;
+}
+
+.skillbox {
+  opacity: 0;
+  -webkit-transition: all 1s 0.2s ease-in-out;
+}
+
+.skillbox.in-view {
+  opacity: 1;
+}
+
+.skillbox {
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+  margin-left: 12.5%;
+  align-content: center;
+  border-radius: 6px;
+}
+
+.skilldescription {
+  font-weight: 500;
+}
+
+.skillbox > * {
+  display: block;
+}
+
+.skillinfo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*margin-right: 100px;*/
+  /*margin-left: 50px;*/
+  background: #363636;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  line-height: 1.5em;
+  padding-top: 4.9%;
+  font-size: 17px;
+  border-radius: 6px;
+}
+
+.skillinfo_top {
+  top: -100%;
+  left: 0;
+}
+
+.skillinfo_left {
+  top: 0;
+  left: -100%;
+}
+
+.skillinfo_bottom {
+  top: 100%;
+  left: 0;
+}
+
+.skillinfo_right {
+  top: 0;
+  left: 100%;
+}
+
+.skillinfo_middle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*margin-right: 100px;*/
+  /*margin-left: 50px;*/
+  background: #363636;
+  color: white;
+  -webkit-transition: opacity 5s ease-in-out;
+  line-height: 1.5em;
+  padding-top: 5.5%;
+  font-size: 17px;
+  border-radius: 6px;
+  opacity: 0;
+  /*-webkit-transition: 5s ease-in-out fadeIn;*/
+  /*-webkit-animation: fadeOut 0.5s ease-out;*/
+}
+
+.skillinfo_middle:hover {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  /*-webkit-animation: fadeOut 0.5s ease-out;*/
+}
+
+.skillinfo_middle:focus {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  /*-webkit-animation: fadeOut 0.5s ease-out;*/
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  /*50% { opacity: 0.5; }*/
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeOut {
+  0% { opacity: 1; }
+  /*50% { opacity: 0.5; }*/
+  100% { opacity: 0; }
+}
+
+.skillinfo_topleft {
+  top: -100%;
+  left: -100%;
+}
+
+.skillinfo_topright {
+  top: -100%;
+  left: 100%;
+}
+
+.skillinfo_bottomleft {
+  top: 100%;
+  left: -100%;
+}
+
+.skillinfo_bottomright {
+  top: 100%;
+  left: 100%;
+}
+.skillbox:hover .skillinfo {
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.25s ease-out;
+}
+
+.skillbox:focus .skillinfo {
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.25s ease-out;
+}
+
+.skillbox:hover .skillinfo_middle {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s ease-in-out;
+}
+
+.skillbox:focus .skillinfo_middle {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s ease-in-out;
+}
+
+.skillinfo > * {
+  -webkit-transition: opacity 1s ease;
+  opacity: 0;
+}
+
+.skillinfo_middle > * {
+  opacity: 0;
+  -webkit-transition: opacity 3s ease;
+}
+
+.skillbox:hover .skillinfo > * {
+  -webkit-transition: opacity 0.35s ease;
+  opacity: 1;
+}
+
+.skillbox:focus .skillinfo > * {
+  -webkit-transition: opacity 0.35s ease;
+  opacity: 1;
+}
+
+.skillbox:hover .skillinfo_middle > * {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.skillbox:focus .skillinfo_middle > * {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.skillshape {
+  background-color: #01A9DB;
+  /*margin-left: 50px;*/
+  /*margin-right: 50px;*/
+  padding-top: 30px;
+  border-radius: 6px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.skillshape:hover {
+  /*background-color: #69C6E3;*/
+  /*color: #01A9DB;*/
+}
+
+.skillcontent {
+  padding-top: 15px;
+}
+
+#skillsid:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 100px solid #F4F4F4;
+  border-bottom: 0 solid transparent!important; 
+  border-right: 100px solid transparent!important; 
+  border-left: 100px solid transparent!important; 
+  left: 50%;
+  /*bottom: -50px;*/
+  margin-left: -100px;
+  z-index: 10;
+}
+
+
+
+@mixin skills--mp() { // Mobile portrait
+  section.skills {
+    padding: 55px 0px 55px 0px;
+  }
+
+  .skillbox {
+    margin-top: 2.5%;
+  }
+
+  .skillsh2 {
+    margin-top: 10px;
+  }
+}
+
+@mixin skills--ml() { // Mobile landscape
+  section.skills {
+    padding: 55px 0px 50px 0px;
+  }
+
+  .skillbox {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+
+  .skillinfo {
+    width: 100%;
+    height: 100%;
+    padding-top: 3.5%;
+  }
+
+  .skillinfo_middle {
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+  }
+
+  .skillsh2 {
+    margin-top: 12px;
+  }
+}
+
+@mixin skills--plus() { // Plus-sized phones
+  .skillbox {
+    margin-top: 2.5%;
+  }
+
+  .skillsh2 {
+    margin-top: 12px;
+  }
+}
+
+@mixin skills--ipad() {
+  .skillbox {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+
+  .skillinfo {
+    width: 100%;
+    height: 100%;
+    padding-top: 3.5%;
+  }
+
+  .skillinfo_middle {
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+  }
+
+  .skillsh2 {
+    margin-top: 10px;
+  }
+
+  .skillshr {
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+}
+
+@mixin skills--ipadpro() {
+  .skillbox {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+
+  .skillinfo {
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+  }
+
+  .skillinfo_middle {
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+  }
+
+  .skillsh2 {
+    margin-top: 12px;
+  }
+
+  .skillshr {
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+}
+
+@mixin skills--default() {
+  .skillbox {
+    margin-top: 5%;
+  }
+
+  .skillsh2 {
+    margin-top: 10px;
+  }
+
+  .skillshr {
+    margin-top: 25px;
+    margin-bottom: 18px;
+  }
+}
+
+@mixin skills--big() {
+  .skillbox {
+    margin-top: 10%;
+  }
+
+  .skillsh2 {
+    margin-top: 10px;
+  }
+
+  .skillshr {
+    margin-top: 25px;
+    margin-bottom: 18px;
+  }
+}

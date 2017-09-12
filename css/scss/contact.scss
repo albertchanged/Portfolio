@@ -1,0 +1,251 @@
+.contacth2 {
+  color: white;
+  font-weight: 300;
+  margin-top: 3px;
+}
+
+.contactp {
+  color: #D8D8D8;
+  padding-bottom: 25px;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Lato;
+  letter-spacing: 1px;
+}
+
+.floating-label-form-group:focus, .floating-label-form-group:hover {
+  background-color: #626262;
+}
+
+.emaillink {
+  color: white;
+  text-decoration: none;
+}
+
+.emaillink:hover {
+  text-decoration: underline;
+}
+
+.contacthr {
+  border-top: 4px solid #01BCF5; 
+  padding-bottom: 35px;
+}
+
+section.contact {
+  background: #444444;
+  color: black;
+}
+
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+.floating-label-form-group:not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #18BC9C;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eeeeee;
+}
+
+
+
+@mixin contact--mp() { // Mobile portrait
+  .contacth2 {
+    margin-top: -2.5px;
+  }
+
+  #name, #email, #phone {
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  #message {
+    color: white; height: 90px; margin-top: -15px; font-size: 20px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 20px;
+  }
+
+  .contactp {
+    text-align: left;
+    margin-top: -10px;
+    font-size: 20px;
+  }
+}
+
+@mixin contact--ml() { // Mobile landscape
+  #name, #email, #phone {
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+  #message {
+    color: white; height: 90px; margin-top: -10px; font-size: 20px;
+  }
+
+  .contacth2 {
+    margin-top: 5px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 20px;
+  }
+}
+
+@mixin contact--plus() { // Plus-sized phones
+  #name, #email, #phone {
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  #message {
+    color: white; height: 90px; margin-top: -10px;
+    font-size: 20px;
+  }
+
+  section.contact {
+    background: #444444;
+    color: black;
+    padding: 65px 0px 30px 0px;
+  }
+
+  .contacth2 {
+    margin-top: 5px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 20px;
+  }
+
+  .contactp {
+    text-align: left;
+    margin-top: -10px;
+    font-size: 17px;
+  }
+}
+
+@mixin contact--ipad() {
+  #name, #email, #phone {
+    color: white;
+    height: 40px;
+    font-size: 22.5px;
+  }
+  #message {
+    color: white; height: 90px; margin-top: -10px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 30px;
+  }
+}
+
+@mixin contact--ipadpro() {
+  #name, #email, #phone {
+    color: white;
+    height: 40px;
+    font-size: 30px;
+  }
+  #message {
+    color: white; 
+    height: 90px; 
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 30px;
+  }
+
+  .contactp {
+    text-align: left;
+    margin-top: -10px;
+    font-size: 32.5px;
+  }
+}
+
+@mixin contact--default() {
+  #name, #email, #phone {
+    color: white;
+    padding-top: 1px;
+    height: 35px;
+  }
+  #message {
+    color: white; height: 90px; margin-top: -10px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 30px;
+  }
+
+}
+
+@mixin contact--big() {
+  #name, #email, #phone {
+    color: white;
+    padding-top: 1px;
+    height: 40px;
+  }
+  #message {
+    color: white; height: 90px; margin-top: -10px;
+  }
+
+  .contacthr {
+    border-top: 4px solid #01BCF5; 
+    padding-bottom: 30px;
+  }
+
+  section.contact {
+    background: #444444;
+    padding: 65px 0px 15px 0px;
+    color: black;
+  }
+}

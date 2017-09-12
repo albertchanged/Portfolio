@@ -1,0 +1,101 @@
+@import 'base';
+@import 'nav';
+@import 'header';
+@import 'portfolio';
+@import 'skills';
+@import 'about';
+@import 'resume';
+@import 'contact';
+@import 'footer';
+
+
+@media only screen and (min-width: 300px) and (max-width: 415px) and (max-height: 735px) {
+/*Mobile portrait*/
+	@include base--mp();
+	@include nav--mp();
+	@include header--mp();
+	@include portfolio--mp();
+	@include skills--mp();
+	@include about--mp();
+	@include resume--mp();
+	@include contact--mp();
+	@include footer--mp();
+}
+
+@media only screen and (min-width: 410px) and (max-width: 500px) and (min-height: 700px) and (max-height: 800px) {
+/*Mobile Plus*/
+	@include base--plus();
+	@include nav--plus();
+	@include header--plus();
+	@include portfolio--plus();
+	@include skills--plus();
+	@include about--plus();
+	@include resume--plus();
+	@include contact--plus();
+	@include footer--plus();
+}
+
+@media only screen and (min-width: 570px) and (max-width: 748px) {
+/*Mobile landscape*/
+	@include base--ml();
+	@include nav--ml();
+	@include header--ml();
+	@include portfolio--ml();
+	@include skills--ml();
+	@include about--ml();
+	@include resume--ml();
+	@include contact--ml();
+	@include footer--ml();
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+/*iPad*/
+	@include base--ipad();
+	@include nav--ipad();
+	@include header--ipad();
+	@include portfolio--ipad();
+	@include skills--ipad();
+	@include about--ipad();
+	@include resume--ipad();
+	@include contact--ipad();
+	@include footer--ipad();
+}
+
+@media only screen and (min-width: 1010px) and (max-width: 1100px) {
+/*iPad Pro*/
+	@include base--ipadpro();
+	@include nav--ipadpro();
+	@include header--ipadpro();
+	@include portfolio--ipadpro();
+	@include skills--ipadpro();
+	@include about--ipadpro();
+	@include resume--ipadpro();
+	@include contact--ipadpro();
+	@include footer--ipadpro();
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1490px) {
+/*Default*/
+	@include base--default();
+	@include nav--default();
+	@include header--default();
+	@include portfolio--default();
+	@include skills--default();
+	@include about--default();
+	@include resume--default();
+	@include contact--default();
+	@include footer--default();
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+/*Big screen*/
+	@include base--big();
+	@include nav--big();
+	@include header--big();
+	@include portfolio--big();
+	@include skills--big();
+	@include about--big();
+	@include resume--big();
+	@include contact--big();
+	@include footer--big();
+}

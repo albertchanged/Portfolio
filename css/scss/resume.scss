@@ -1,0 +1,73 @@
+
+section.resume {
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+
+
+
+/*#resumeid:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 100px solid #F8F8F8;
+  border-bottom: 0 solid transparent!important; 
+  border-right: 100px solid transparent!important; 
+  border-left: 100px solid transparent!important; 
+  left: 50%;
+  margin-left: -100px;
+  z-index: 10;
+}*/
+
+#resumeid:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 100px solid #EBEBEB;
+  border-bottom: 0 solid transparent!important; 
+  border-right: 100px solid transparent!important; 
+  border-left: 100px solid transparent!important; 
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -100px;
+  z-index: 10;
+}
+
+
+
+@mixin resume--mp() { // Mobile portrait
+  
+}
+
+@mixin resume--ml() { // Mobile landscape
+	
+}
+
+@mixin resume--plus() { // Plus-sized phones
+  section.resume {
+    margin: 0;
+  }
+  
+}
+
+@mixin resume--ipad() {
+  
+}
+
+@mixin resume--ipadpro() {
+  
+}
+
+@mixin resume--default() {
+  section.resume {
+    padding-left: 14.25%;
+  }
+  
+}
+
+@mixin resume--big() {
+  section.resume {
+    padding-left: 14.25%;
+  }
+}

@@ -1,0 +1,239 @@
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #252525;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: black;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 32.5px;
+  padding-top: 5px;
+  padding-left: 2px;
+  line-height: 45px;
+}
+
+.btn-social:hover {
+  border: 2px solid #01A9DB;
+  background-color: white;
+  color: #01A9DB;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 32.5px;
+  padding-top: 5px;
+  padding-left: 2px;
+  line-height: 45px;
+}
+
+.socialbutton1, .socialbutton2 {
+  margin-right: 2%;
+}
+
+.btn3 {
+  /*font-size: 30px;*/
+  padding-right: 3px;
+}
+
+@mixin footer--mp() { // Mobile portrait
+  .footerp {
+    padding-top: 3%;
+    font-family: Lato;
+    font-size: 20px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .list-inline {
+    margin-top: -20px;
+    margin-bottom: -15px;
+  }
+
+  .btn-social, .btn-social:hover {
+    font-size: 32.5px;
+    padding-top: 5px;
+    padding-left: 2px;
+  }
+
+  .socialbutton1 {
+    margin-left: 3%;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 10%;
+  }
+
+  .btn3 {
+    font-size: 30px;
+    padding-right: 3px;
+  }
+}
+
+@mixin footer--ml() { // Mobile landscape
+	.footerp {
+    padding-top: 3%;
+    font-family: Lato;
+    font-size: 25px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .list-inline {
+    /*margin-top: -20px;*/
+    margin-bottom: -15px;
+  }
+}
+
+@mixin footer--plus() { // Plus-sized phones
+  .footerp {
+    padding-top: 3%;
+    font-family: Lato;
+    font-size: 20px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .list-inline {
+    margin-top: -20px;
+    margin-bottom: -15px;
+  }
+
+  .btn-social, .btn-social:hover {
+    font-size: 32.5px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+  
+  .socialbutton1 {
+    margin-left: 1%;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 10%;
+  }
+
+  .btn3 {
+    font-size: 30px;
+    padding-right: 0px;
+  }
+}
+
+@mixin footer--ipad() {
+  .footerp {
+    padding-top: 3%;
+    font-family: Lato;
+    font-size: 25px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .list-inline {
+    /*margin-top: -20px;*/
+    margin-bottom: -15px;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 5%;
+  }
+}
+
+@mixin footer--ipadpro() {
+  .footerp {
+    padding-top: 1%;
+    font-family: Lato;
+    font-size: 25px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 35px;
+  }
+
+  .list-inline {
+    /*margin-top: -20px;*/
+    margin-bottom: -15px;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 5%;
+  }
+}
+
+@mixin footer--default() {
+  .footerp {
+    padding-top: 1%;
+    font-family: Lato;
+    font-size: 20px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 40px;
+  }
+
+  .list-inline {
+    margin-bottom: -10px;
+  }
+
+  #heart {
+    font-family: 'Helvetica Neue','Lato';
+    font-size: 22.5px;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 3%;
+  }
+}
+
+@mixin footer--big() {
+  .footerp {
+    padding-top: 1%;
+    font-family: Lato;
+    font-size: 20px;
+  }
+
+  .footerh3 {
+    margin-top: -10px;
+    font-size: 40px;
+  }
+
+  .list-inline {
+    margin-bottom: -10px;
+  }
+
+  #heart {
+    font-family: 'Helvetica Neue','Lato';
+    font-size: 22.5px;
+  }
+
+  .socialbutton1, .socialbutton2 {
+    margin-right: 3.5%;
+  }
+}
