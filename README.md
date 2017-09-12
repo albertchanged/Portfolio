@@ -2,7 +2,7 @@
 
 This is a culmination of nearly everything I have learned over the past 2 years of development.
 
-## Link
+## Check it out below!
 
 [www.albertchanged.me](www.albertchanged.me)
 
