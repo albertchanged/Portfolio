@@ -2,6 +2,10 @@
 
 This is a culmination of nearly everything I have learned over the past 2 years of development.
 
+## Link
+
+[www.albertchanged.me](www.albertchanged.me)
+
 ## Toughest but most fun parts
 
 There were many steps in building this, so I will just discuss the three most difficult ones.
@@ -15,6 +19,7 @@ Lastly, I edited border radii of the objects on the About section, divided the P
 ## Technologies Used
 
 FRONT END: Bootstrap, HTML5, CSS3, Sass/Scss
+
 BACK END: ES6 JavaScript, jQuery, PHP
 
 ## Creator
