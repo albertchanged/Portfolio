@@ -1,5 +1,4 @@
 section.about {
-  /*background: #EDEDED;*/
   background: white;
   color: #6E6E6E;
 }
@@ -17,18 +16,9 @@ section.about p {
   border-right: 100px solid transparent!important; 
   border-left: 100px solid transparent!important; 
   left: 50%;
-  /*bottom: -50px;*/
   margin-left: -100px;
   z-index: 10;
 }
-
-
-/*.titlelink:hover {
-  text-decoration: none;
-  border-bottom: 3px solid white;
-  width: 300px;
-}*/
-
 
 .abouth2 {
   color: black;
@@ -100,18 +90,15 @@ section.about p {
   padding-top: 20px;
   margin-bottom: 15px;
   background-color: #F2F2F2;
-  /*border: 3px solid #F7F7F7;*/
   border-top-right-radius: 35px;
   position: relative;
 }
 
 #about2 {
   padding-bottom: 7.5px;
-  /*-webkit-animation: fadein 1s 2s linear forwards;*/
 }
 #about3 {
   padding-bottom: 15px;
-  /*-webkit-animation: fadein 1s 3s linear forwards;*/
 }
 #beautiful {
   -webkit-animation: switchcolor 5s infinite;
@@ -261,7 +248,6 @@ section.about p {
 
   .abouthr {
     margin-top: 20px;
-    /*margin-bottom: 25px;*/
   }
 
   .aboutrow {
@@ -283,7 +269,6 @@ section.about p {
   }
 
   #about #prebutton {
-    /*margin-top: 0px;*/
     font-size: 25px;
   }
 
@@ -305,7 +290,6 @@ section.about p {
 
   .abouthr {
     margin-top: 20px;
-    /*margin-bottom: 25px;*/
   }
 
   .aboutrow {
@@ -327,7 +311,6 @@ section.about p {
   }
 
   #about #prebutton {
-    /*margin-top: 0px;*/
     font-size: 25px;
   }
 
@@ -340,7 +323,6 @@ section.about p {
 @mixin about--default() {
   .abouthr {
     margin-top: 20px;
-    /*margin-bottom: 25px;*/
   }
 
   .aboutrow {
@@ -373,7 +355,6 @@ section.about p {
   }
 
   #about #prebutton {
-    /*margin-top: 0px;*/
     font-size: 18px;
   }
 
@@ -415,7 +396,6 @@ section.about p {
   }
 
   #about #prebutton {
-    /*margin-top: 0px;*/
     font-size: 18px;
   }
 }

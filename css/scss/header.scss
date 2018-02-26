@@ -3,7 +3,6 @@
 }
 header {
   text-align: center;
-  /*background: #424242;*/
   background: #353535;
   color: white;
   padding-bottom: 0.5%;
@@ -48,19 +47,11 @@ header .intro-text .skills {
   position: absolute;
   width: 0;
   height: 0;
-/*  border: 400px solid #3E3E3E;
-  border-bottom: 0 solid transparent!important; 
-  border-right: 315px solid transparent!important; 
-  border-left: 315px solid transparent!important; 
-  left: 50%;
-  bottom: -350px;
-  margin-left: -315px;*/
   border: 100px solid #353535;
   border-bottom: 0 solid transparent!important; 
   border-right: 100px solid transparent!important; 
   border-left: 100px solid transparent!important; 
   left: 50%;
-  /*top: 660px;*/
   margin-left: -100px;
   z-index: 1;
 }
@@ -70,17 +61,11 @@ header .intro-text .skills {
 }
 
 .titlelink, .navbarlink {
-  /*width: 150px;*/
-  /*border-bottom: 1px solid transparent;*/
-  /*transition: 0.5s ease;*/
-  /*white-space: nowrap;*/
   text-decoration: none;
 }
 
 #headerarrow {
-  /*position: fixed;*/
   bottom: 0;
-  /*left: 100%;*/
   margin-top: 10%;
   margin-left: 44.5%;
   width: 40px;
@@ -127,7 +112,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 5px;
     font-size: 62.5px;
   }
@@ -149,8 +133,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .skills1, .skills2, .skills3 {
-    /*word-wrap: break-word;*/
-    /*text-align: left;*/
     font-size: 22.5px;
     margin-bottom: -10px;
     display: inline-block;
@@ -159,7 +141,6 @@ header .intro-text .skills {
 
 @mixin header--ml() { // Mobile landscape
   header .container {
-    /*padding-top: 100px;*/
     padding-bottom: 50px;
   }
 
@@ -211,11 +192,6 @@ header .intro-text .skills {
 }
 
 @mixin header--plus() { // Plus-sized phones
-  header .container {
-    /*padding-top: 100px;*/
-    /*padding-bottom: 50px;*/
-  }
-
   #animation {
     width: 100%;
     margin-top: 10px;
@@ -223,7 +199,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 10px;
     font-size: 65px;
   }
@@ -266,7 +241,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 60px;
     font-size: 80px;
   }
@@ -276,8 +250,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .skills1, .skills2, .skills3 {
-    /*word-wrap: break-word;*/
-    /*text-align: left;*/
     display: inline-block;
     font-size: 40px;
   }
@@ -308,7 +280,6 @@ header .intro-text .skills {
     margin-left: 7.5px;
   }
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 60px;
     font-size: 70px;
   }
@@ -318,8 +289,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .skills1, .skills2, .skills3 {
-    /*word-wrap: break-word;*/
-    /*text-align: left;*/
     display: inline-block;
     font-size: 30px;
   }
@@ -346,7 +315,6 @@ header .intro-text .skills {
     margin-left: 7.5px;
   }
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 30px;
     font-size: 80px;
   }
@@ -356,8 +324,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .skills1, .skills2, .skills3 {
-    /*word-wrap: break-word;*/
-    /*text-align: left;*/
     display: inline-block;
     font-size: 30px;
   }
@@ -390,7 +356,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .name1 {
-    /*word-wrap: break-word;*/
     margin-top: 35px;
     font-size: 90px;
   }
@@ -400,8 +365,6 @@ header .intro-text .skills {
   }
 
   header .intro-text .skills1, .skills2, .skills3 {
-    /*word-wrap: break-word;*/
-    /*text-align: left;*/
     display: inline-block;
     font-size: 40px;
   }

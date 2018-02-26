@@ -27,28 +27,28 @@
 
 		.Head {
 			transform-origin: 50% 30%;
-			animation: movehead 1.25s 1.95s infinite;
+			-webkit-animation: movehead 1.25s 1.95s infinite;
 			<!-- -webkit-animation: moveheadback 1.5s 1.5s infinite; -->
 		}
 		
 		@-webkit-keyframes movehead {
 			0% {
-				transform: rotate(0deg);
+				-webkit-transform: rotate(0deg);
 			}
 			50% {
-				transform: rotate(6deg);
+				-webkit-transform: rotate(6deg);
 			}
 			100% {
-				transform: rotate(0deg);
+				-webkit-transform: rotate(0deg);
 			}
 		}
 
 		@-webkit-keyframes moveheadback {
 			0% {
-				transform: rotate(6deg);
+				-webkit-transform: rotate(6deg);
 			}
 			100% {
-				transform: rotate(0deg);
+				-webkit-transform: rotate(0deg);
 			}
 		}
 

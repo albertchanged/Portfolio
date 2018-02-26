@@ -4,15 +4,12 @@ div#maincontent {
 
 section {
   padding: 57.5px 0;
-  /*background-color: #424242;*/
-  /*background-color: #ECECEC;*/
   background-color: #E2E2E2;
 }
 
 .portfolioh2 {
   color: black;
   font-weight: 300;
-  /*margin-top: px;*/
 }
 
 .portfoliorow1 {
@@ -57,21 +54,13 @@ section {
   border-right: 100px solid transparent!important; 
   border-left: 100px solid transparent!important; 
   left: 50%;
-  /*bottom: -932.5px;*/
   margin-left: -100px;
   z-index: 10;
 }
 
-/*.sectiontitle {
-  color: black;
-  font-weight: 300;
-  margin-top: 20px;
-}*/
-
 .portfoliohr {
   width: 125px; 
   border-top: 4px solid #01A9DB; 
-  /*margin-bottom: 5px;*/
   margin-top: 27.5px;
 }
 
@@ -117,8 +106,6 @@ section {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  /*background: rgba(24, 188, 156, 0.9);*/
-  /*background: rgba(1, 169, 219, 0.9);*/
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   width: 100%;
@@ -168,7 +155,6 @@ section {
   border: none;
   min-height: 100%;
   padding: 22.5px 0; 
-  /*25px*/
   background: rgba(46, 46, 46, 0.95);
   -webkit-transition: zoomIn 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition:         zoomIn 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -296,7 +282,6 @@ section {
   .portfolio-modal .close-modal .lr {
     height: 40px;
     margin-left: 20px;
-    /*width: 0.5px;*/
   }
 
   .portfolio-modal .close-modal {
@@ -375,7 +360,6 @@ section {
   .portfolio-modal .close-modal .lr {
     height: 40px;
     margin-left: 20px;
-    /*width: 0.5px;*/
   }
 
   .portfolio-modal .close-modal {
