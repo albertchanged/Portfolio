@@ -26,6 +26,6 @@ BACK END: ES6 JavaScript, jQuery, PHP
 
 ## Creator
 
-Made with love by Albert Chang, 2017.
+Made with love by Albert Chang, 2018.
 
 Connect with me! [LinkedIn](https://www.linkedin.com/in/albertchanged)
