@@ -50,17 +50,9 @@ section.about p {
 }
 
 .abouth3 {
-  /*text-align: center;*/
   color: #424242;
-  /*padding-left: 10px;*/
-  /*padding-top: 5px;*/
-  /*padding-bottom: 5px;*/
   margin-top: 0px;
   font-size: 30px;
-  /*background-color: #01A9DB;*/
-  /*padding: 10px;*/
-  /*text-align: center;*/
-  /*border-radius: 5px;*/
   border-top-right-radius: 35px;
   font-weight: 500;
   text-transform: none;
@@ -69,25 +61,21 @@ section.about p {
 .aboutsection1, .aboutsection2, .aboutsection3 {
   opacity: 0;
   background-color: white;
-  padding-left: 20.5px;
+  padding-left: 10px;
   padding-right: 20.5px;
   padding-bottom: 10px;
   padding-top: 20px;
   margin-bottom: 15px;
   background-color: #F2F2F2;
-  /*border: 3px solid #F7F7F7;*/
   border-top-right-radius: 35px;
   position: relative;
   -webkit-transition: all 1s ease-in-out;
   -webkit-transform: translate3d(0px, 50px, 0px);
-
-  /*border-radius: 5px;*/
-  /*width: 350px;*/
 }
 
 
 #about1, #about2 {
-    margin-right: 4%;
+  margin-right: 4%;
 }
 
 .aboutsection1 {
@@ -106,8 +94,8 @@ section.about p {
   opacity: 1;
   -webkit-transform: translate3d(0px, 0px, 0px);
   background-color: white;
-  padding-left: 20.5px;
-  padding-right: 20.5px;
+  padding-left: 20px;
+  padding-right: 15px;
   padding-bottom: 10px;
   padding-top: 20px;
   margin-bottom: 15px;

@@ -26,29 +26,29 @@
 		}
 
 		.Head {
-			transform-origin: 65% 75%;
-			-webkit-animation: movehead 1.25s 1.95s infinite;
+			transform-origin: 50% 30%;
+			animation: movehead 1.25s 1.95s infinite;
 			<!-- -webkit-animation: moveheadback 1.5s 1.5s infinite; -->
 		}
 		
 		@-webkit-keyframes movehead {
 			0% {
-				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
 			}
 			50% {
-				-webkit-transform: rotate(5deg);
+				transform: rotate(6deg);
 			}
 			100% {
-				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
 			}
 		}
 
 		@-webkit-keyframes moveheadback {
 			0% {
-				-webkit-transform: rotate(4deg);
+				transform: rotate(6deg);
 			}
 			100% {
-			-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
 			}
 		}
 

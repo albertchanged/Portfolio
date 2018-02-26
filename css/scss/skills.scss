@@ -47,6 +47,7 @@ section.skills {
 
 .skilldescription {
   font-weight: 500;
+  font-size: 30px;
 }
 
 .skillbox > * {
@@ -63,13 +64,13 @@ section.skills {
   color: white;
   -webkit-transition: all 0.5s ease-out;
   line-height: 1.5em;
-  padding-top: 4.9%;
+  padding: 3%;
   font-size: 17px;
   border-radius: 6px;
 }
 
 .skillinfo_top {
-  top: -100%;
+  top: -110%;
   left: 0;
 }
 
@@ -98,7 +99,7 @@ section.skills {
   color: white;
   -webkit-transition: opacity 5s ease-in-out;
   line-height: 1.5em;
-  padding-top: 5.5%;
+  padding: 3%;
   font-size: 17px;
   border-radius: 6px;
   opacity: 0;
