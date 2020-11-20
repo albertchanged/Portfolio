@@ -1,3 +1,5 @@
+var $experiencerow1 = $('.experiencerow1');
+var $experiencerow2 = $('.experiencerow2');
 var $portfoliorow1 = $('.portfoliorow1');
 var $portfoliorow2 = $('.portfoliorow2');
 var $portfoliorow3 = $('.portfoliorow3');
@@ -7,13 +9,63 @@ var $about1 = $('.aboutsection1');
 var $about2 = $('.aboutsection2');
 var $about3 = $('.aboutsection3');
 
+var arr = [$experiencerow1, $experiencerow2, $portfoliorow1, $portfoliorow2, $portfoliorow3, $about1, $about2, $about3];
 var $window = $(window);
+
+
+var performAnimate = function(name) {
+  console.log(name);
+  $.each(name, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    // Check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+}
 
 
 function check_if_in_view() {
   var window_height = $window.height();
   var window_top_position = $window.scrollTop();
   var window_bottom_position = (window_top_position + window_height);
+
+  // Each Experience row
+  $.each($experiencerow1, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    // Check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+  $.each($experiencerow2, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    // Check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
 
   // Each Portfolio row
   $.each($portfoliorow1, function() {
