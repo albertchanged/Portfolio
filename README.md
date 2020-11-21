@@ -2,11 +2,11 @@
 
 An elegant, responsive, and user-friendly portfolio website.
 
-It is a culmination of nearly everything I have learned over the past 2 years of web and front end development!
+It is a culmination of everything I have worked on over my past 4 years of web and front end development!
 
 ## Check it out below!
 
-[www.albertchanged.me](www.albertchanged.me)
+[www.albertchanged.me](http://www.albertchanged.me)
 
 ## Toughest but most fun parts
 
@@ -26,6 +26,6 @@ BACK END: ES6 JavaScript, jQuery, PHP
 
 ## Creator
 
-Made with love by Albert Chang, 2018.
+Updated with love by Albert Chang, 2020.
 
 Connect with me! [LinkedIn](https://www.linkedin.com/in/albertchanged)
