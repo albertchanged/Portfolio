@@ -355,7 +355,9 @@ header {
   text-align: center;
   background: #353535;
   color: white;
-  padding-bottom: 0.5%; }
+  padding-bottom: 0.5%;
+  height: 815px;
+}
 
 header .container {
   padding-top: 100px;
@@ -437,18 +439,19 @@ section {
 
 /* EXPERIENCE SECTION */
 
-
 section.experience {
   background-color: #F2F2F2;
 }
 
-section.experience .experience-header h2 {
-  font-weight: 500;
+.experienceh2 {
+  color: black;
+  font-weight: 300;
+  margin-top: 20px;
 }
 
 section.experience h3 {
   color: #6E6E6E;
-  margin-top: 10px;
+  margin-top: 12.5px;
 }
 
 #experienceid:after {
@@ -462,18 +465,27 @@ section.experience h3 {
   left: 50%;
   margin-left: -100px;
   z-index: 10;
+  margin-top: 20px;
 }
 
 .experience-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   width: 15%;
 }
 
 .experience-header {
-  /* display: flex; */
   margin-bottom: -10px;
+}
+
+.experienceh2 {
+  margin-top: 20px;
+}
+
+.experience-header h2 {
+  font-weight: 500;
 }
 
 .experience-header-title {
@@ -488,7 +500,7 @@ section.experience h3 {
 .experiencerow1 {
   opacity: 0;
   -webkit-transition: all 1s 0.2s ease-in-out;
-  -webkit-transform: translate3d(0px, 50px, 0px); }
+  -webkit-transform: translate3d(0px, 75px, 0px); }
 
 .experiencerow1.in-view {
   opacity: 1;
@@ -497,20 +509,24 @@ section.experience h3 {
 .experiencerow2 {
   opacity: 0;
   -webkit-transition: all 1s 0.2s ease-in-out;
-  -webkit-transform: translate3d(0px, 25px, 0px); }
+  -webkit-transform: translate3d(0px, 30px, 0px); }
 
 .experiencerow2.in-view {
   opacity: 1;
   -webkit-transform: translate3d(0px, 0px, 0px); }
 
 .experience-body {
-  margin-top: 20px;
+  margin-top: 22.5px;
   margin-left: 15px;
 }
 
 .experience-hr {
   border-color: #BDBDBD;
   margin: 30px;
+}
+
+.dot-container {
+  margin-top: -2px;
 }
 
 .dot {
@@ -531,6 +547,7 @@ section.experience h3 {
 .experience-bullet {
   display: flex;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .experience-p {
@@ -540,12 +557,15 @@ section.experience h3 {
 
 .experience-photo-title {
   display: inline-block;
-  height: 30px;
+  height: 32px;
   padding: 2px 10px;
   background-color: #01A9DB;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
+.experience-photo-title p {
+  font-size: 20px;
+}
 
 /* PORTFOLIO SECTION */
 
@@ -755,7 +775,7 @@ section.skills {
 .skillsh2 {
   color: black;
   font-weight: 300;
-  margin-top: -2px; }
+  margin-top: 20px; }
 
 .skillshr {
   margin-top: 30px;
@@ -1216,6 +1236,10 @@ footer .footer-below {
     /* border-color: #01A9DB; */
     /* margin-top: 0; */ }
 
+  header {
+    height: 650px;
+  }
+
   header .container {
     padding-top: 100px;
     padding-bottom: 75px; }
@@ -1258,11 +1282,21 @@ footer .footer-below {
   section {
     padding: 65px 0px 55px 0px; }
 
-  #experienceid:after {
-    margin-top: 30px;
+  #experienceid {
+    padding: 10px 50px;
   }
+
+  #experienceid:after {
+    margin-top: 10px;
+  }
+
+  .experienceh2 {
+    margin-top: 7.5px;
+  }
+
   .experience-logo {
-    width: 30%;
+    width: 35%;
+    margin-bottom: 5px;
   }
 
   .experience-header {
@@ -1285,12 +1319,12 @@ footer .footer-below {
 
   .experience-dates {
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 12.5px;
   }
 
   .experience-body {
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .experience-bullet {
@@ -1299,10 +1333,13 @@ footer .footer-below {
   }
 
   .experience-photo-title {
-    padding: 5px 10px;
+    padding: 4px 8px 2px 8px;
+    height: 25px;
+    margin-bottom: 30px;
   }
+
   .experience-photo-title p {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .portfoliorow1 {
@@ -1351,7 +1388,12 @@ footer .footer-below {
     padding-top: 3px;
     margin-left: -10px; }
 
+  .portfolioh2 {
+    margin-top: -5px;
+  }
+
   .portfoliohr {
+    margin-top: 25px;
     margin-bottom: 5px; }
 
   .portfolioinfo {
@@ -1368,7 +1410,7 @@ footer .footer-below {
     margin-top: 2.5%; }
 
   .skillsh2 {
-    margin-top: 10px; }
+    margin-top: 25px; }
 
   section.about {
     padding: 65px 0px 60px 0px; }
@@ -1377,7 +1419,7 @@ footer .footer-below {
     font-size: 17px; }
 
   .abouth2 {
-    margin-top: -5px; }
+    margin-top: 15px; }
 
   #about1, #about2 {
     margin-right: 0%; }
@@ -1411,6 +1453,18 @@ footer .footer-below {
     height: 90px;
     margin-top: -15px;
     font-size: 20px; }
+
+  section.contact {
+    padding-bottom: 10px;
+  }
+
+  #contact .btn {
+    margin-top: 20px;
+  }
+
+  .contacth2 {
+    margin-top: 20px;
+  }
 
   .contacthr {
     border-top: 4px solid #01BCF5;
@@ -1448,11 +1502,12 @@ footer .footer-below {
   .btn3 {
     font-size: 30px;
     padding-right: 3px; } }
-@media only screen and (min-width: 410px) and (max-width: 500px) and (min-height: 700px) and (max-height: 820px) {
+
+@media only screen and (min-width: 410px) and (max-width: 550px) and (min-height: 700px) and (max-height: 820px) {
   /*Mobile Plus*/
   #backtotoparrow {
     bottom: 22.5px;
-    margin-left: 87%;
+    margin-left: 90%;
     width: 40px;
     height: 40px; }
 
@@ -1500,8 +1555,72 @@ footer .footer-below {
     /*text-align: left;*/
     font-size: 30px; }
 
+  #headerarrow {
+    margin-left: 46%;
+  }
+
   section {
     padding: 65px 0px 50px 0px; }
+
+  #experienceid {
+    padding: 10px 50px;
+  }
+
+  #experienceid:after {
+    margin-top: 10px;
+  }
+
+  .experienceh2 {
+    margin-top: 10px;
+  }
+
+  .experience-logo {
+    width: 35%;
+    margin-bottom: 5px;
+  }
+
+  .experience-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-header-title {
+    width: 100%;
+  }
+
+  .experience-header h2 {
+    font-size: 25px;
+  }
+
+  .experience-header h3 {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .experience-dates {
+    font-size: 18px;
+    margin-top: 12.5px;
+  }
+
+  .experience-body {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+
+  .experience-bullet {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .experience-photo-title {
+    padding: 4px 8px 4px 8px;
+    height: 35px;
+    margin-bottom: 30px;
+  }
+
+  .experience-photo-title p {
+    font-size: 20px;
+  }
 
   .portfoliorow1 {
     opacity: 0;
@@ -1559,6 +1678,10 @@ footer .footer-below {
     padding-top: 3px;
     margin-left: -10px; }
 
+  .portfolioh2 {
+    margin-top: 5px;
+  }
+
   .portfoliohr {
     margin-bottom: 5px; }
 
@@ -1571,14 +1694,26 @@ footer .footer-below {
     font-family: 'Lato';
     margin-top: 20px; }
 
+  #skillsid:after {
+    margin-top: 5px;
+  }
+
   .skillbox {
     margin-top: 2.5%; }
 
   .skillsh2 {
-    margin-top: 12px; }
+    margin-top: 30px; }
+
+  #aboutid:after {
+    margin-top: 5px;
+  }
+
+  #aboutid {
+    padding-bottom: 10px;
+  }
 
   .abouth2 {
-    margin-top: -5px; }
+    margin-top: 20px; }
 
   #about p {
     font-size: 19px; }
@@ -1621,7 +1756,7 @@ footer .footer-below {
     padding: 65px 0px 30px 0px; }
 
   .contacth2 {
-    margin-top: 5px; }
+    margin-top: 20px; }
 
   .contacthr {
     border-top: 4px solid #01BCF5;
@@ -1659,13 +1794,18 @@ footer .footer-below {
   .btn3 {
     font-size: 30px;
     padding-right: 0px; } }
-@media only screen and (min-width: 570px) and (max-width: 748px) {
+
+@media only screen and (min-width: 770px) and (max-width: 815px) {
   /*Mobile landscape*/
   #backtotoparrow {
     bottom: 23px;
     margin-left: 91.8%;
     width: 50px;
     height: 50px; }
+
+  header {
+    height: 707.5px;
+  }
 
   #arrowlabel {
     margin-top: -15px;
@@ -1674,8 +1814,23 @@ footer .footer-below {
   header .container {
     padding-bottom: 50px; }
 
+  .navbar-custom .navbar-nav {
+    font-size: 15px;
+    margin-left: 1.5%;
+    margin-top: 0.25%;
+    letter-spacing: 1px;
+    padding-top: 1px; }
+
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    font-size: 20px;
+    margin-top: 2.4px; }
+
+  .container {
+    width: 800px;
+  }
+
   #animation {
-    width: 100%;
+    width: 80%;
     margin-top: 15px;
     margin-left: 1px; }
 
@@ -1687,6 +1842,10 @@ footer .footer-below {
   header .intro-text .name2 {
     font-size: 70px;
     padding-left: 2%; }
+
+  #maincontent {
+    padding-top: 12.5%;
+  }
 
   .headerh4 {
     margin-top: 20px;
@@ -1715,20 +1874,87 @@ footer .footer-below {
   section {
     padding: 65px 0px 50px 0px; }
 
+  #experienceid {
+    padding: 30px 100px;
+  }
+
+  #experienceid:after {
+    margin-top: 25px;
+  }
+
+  .experienceh2 {
+    margin-top: -5px;
+  }
+
+  .experience-logo {
+    width: 20%;
+    margin-top: 4%;
+  }
+
+  .experience-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-header-title {
+    width: 100%;
+  }
+
+  .experience-header h2 {
+    font-size: 30px;
+  }
+
+  .experience-header h3 {
+    font-size: 25px;
+    margin-top: -5px;
+  }
+
+  .experience-dates {
+    font-size: 22.5px;
+    margin-top: 15px;
+  }
+
+  .experience-body {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+
+  .experience-bullet {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .experience-photo-title {
+    height: 35px;
+    padding: 2px 10px;
+  }
+
+  .experience-photo-title p {
+    font-size: 20px;
+  }
+
+  .dot {
+    margin-top: 2px;
+  }
+
+  #portfolioid:after {
+    margin-top: 0px;
+  }
+
   .portfoliorow1 {
-    -webkit-transform: translate3d(-150px, 0px, 0px); }
+    -webkit-transform: translate3d(-20px, 0px, 0px); }
 
   .portfoliorow1.in-view {
     -webkit-transform: translate3d(0px, 0px, 0px); }
 
   .portfoliorow2 {
-    -webkit-transform: translate3d(-150px, 0px, 0px); }
+    -webkit-transform: translate3d(-20px, 0px, 0px); }
 
   .portfoliorow2.in-view {
     -webkit-transform: translate3d(0px, 0px, 0px); }
 
   .portfoliorow3 {
-    -webkit-transform: translate3d(-150px, 0px, 0px); }
+    -webkit-transform: translate3d(-20px, 0px, 0px); }
 
   .portfoliorow3.in-view {
     -webkit-transform: translate3d(0px, 0px, 0px); }
@@ -1765,6 +1991,10 @@ footer .footer-below {
     padding: 4px 12px;
     font-size: 20px; }
 
+  .portfolioh2 {
+    margin-top: 0px;
+  }
+
   .portfoliohr {
     margin-bottom: 1px; }
 
@@ -1796,10 +2026,14 @@ footer .footer-below {
     padding-top: 4%; }
 
   .skillsh2 {
-    margin-top: 12px; }
+    margin-top: 35px; }
+
+  #aboutid:after {
+    margin-top: -5px;
+  }
 
   .abouth2 {
-    margin-top: 12px; }
+    margin-top: 25px; }
 
   #about p {
     font-size: 19px; }
@@ -1819,6 +2053,14 @@ footer .footer-below {
   #about2 {
     padding-top: 7.5%; }
 
+  #aboutid {
+    padding-bottom: 20px;
+  }
+
+  #aboutid:after {
+    margin-top: 12px;
+  }
+
   #name, #email, #phone {
     color: white;
     height: 30px;
@@ -1830,8 +2072,12 @@ footer .footer-below {
     margin-top: -10px;
     font-size: 20px; }
 
+  #contact .btn {
+    margin-top: 25px;
+  }
+
   .contacth2 {
-    margin-top: 5px; }
+    margin-top: 25px; }
 
   .contacthr {
     border-top: 4px solid #01BCF5;
@@ -1849,7 +2095,8 @@ footer .footer-below {
   .list-inline {
     /*margin-top: -20px;*/
     margin-bottom: -15px; } }
-@media only screen and (min-width: 750px) and (max-width: 1000px) {
+
+@media only screen and (min-width: 768px) and (max-width: 810px) {
   /*iPad*/
   #backtotoparrow {
     bottom: 27.5px;
@@ -1866,6 +2113,8 @@ footer .footer-below {
     margin-left: -15px; }
 
   .navbar-custom .navbar-nav {
+    font-size: 23px;
+    float: left !important;
     letter-spacing: 1px;
     padding-top: 1px; }
 
@@ -1880,15 +2129,21 @@ footer .footer-below {
     padding: 17px 15px 15px 15px; }
 
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-top: 1px; }
+    font-size: 35px;
+    margin-left: 55%;
+    margin-top: 5px; }
 
   #animation {
     margin-top: 5%;
-    width: 100%;
+    width: 80%;
     margin-left: 7.5px; }
 
+  header {
+    height: 865px;
+  }
+
   header .intro-text .name1 {
-    margin-top: 60px;
+    margin-top: 120px;
     font-size: 80px; }
 
   header .intro-text .name2 {
@@ -1910,14 +2165,84 @@ footer .footer-below {
   .headerh4-1, .headerh4-2 {
     padding-left: 3%; }
 
-  #maincontent:after {
-    top: 830px; }
-
   #headerarrow {
     display: none; }
 
   section {
     padding: 67.5px 0px 55px 0px; }
+
+  #experienceid {
+    padding: 25px 100px;
+  }
+
+  #experienceid:after {
+    margin-top: 35px;
+  }
+
+  .experienceh2 {
+    margin-top: 2.5px;
+  }
+
+  .experiencerow1 {
+    margin-top: 20px;
+  }
+
+  .experience-logo {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .experience-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-header-title {
+    width: 100%;
+  }
+
+  .experience-header h2 {
+    font-size: 35px;
+  }
+
+  .experience-header h3 {
+    font-size: 30px;
+    /* margin-top: -5px; */
+  }
+
+  .experience-dates {
+    font-size: 22.5px;
+    margin-top: 15px;
+  }
+
+  .experience-body {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .experience-bullet {
+    font-size: 20px;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .experience-photo-title {
+    padding: 2px 10px;
+    margin-bottom: 40px;
+  }
+
+  .experience-photo-title p {
+    font-size: 20px;
+  }
+
+  .experience-project-photo {
+    width: 100%;
+    height: 100%;
+  }
+
+  #portfolioid:after {
+    margin-top: 10px;
+  }
 
   .portfolio-item {
     width: 100%; }
@@ -1972,8 +2297,8 @@ footer .footer-below {
     font-size: 20px; }
 
   .skillbox {
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 1%; }
 
   .skillinfo {
@@ -1987,7 +2312,7 @@ footer .footer-below {
     padding-top: 4%; }
 
   .skillsh2 {
-    margin-top: 10px; }
+    margin-top: 30px; }
 
   .skillshr {
     margin-top: 20px;
@@ -2051,13 +2376,73 @@ footer .footer-below {
 
   .socialbutton1, .socialbutton2 {
     margin-right: 5%; } }
-@media only screen and (min-width: 1010px) and (max-width: 1100px) {
+
+@media only screen and (min-width: 1023px) and (max-width: 1100px) {
   /*iPad Pro*/
   #backtotoparrow {
     bottom: 37.5px;
     margin-left: 90.5%;
     width: 80px;
     height: 80px; }
+
+  #headerarrow {
+    margin-left: 45%;
+  }
+
+  header {
+    height: 705px;
+  }
+
+  header .name1, .name2 {
+    font-size: 40px;
+  }
+
+  section.experience h2 {
+    font-size: 30px;
+  }
+
+  #experienceid {
+    padding: 30px 200px;
+  }
+
+  #experienceid:after {
+    margin-top: 30px;
+  }
+
+  .experienceh2 {
+    margin-top: -5px;
+  }
+
+  section.experience h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .experience-dates {
+    margin-top: 20px;
+  }
+
+  .experience-body {
+    margin-top: 35px;
+  }
+
+  .experience-bullet {
+    font-size: 20px;
+  }
+
+  .experience-logo {
+    width: 20%;
+  }
+
+  .experience-photo-title {
+    padding: 3px 10px 5px 10px;
+    height: 35px;
+    margin-bottom: 25px;
+  }
+
+  .experience-photo-title p {
+    font-size: 20px;
+  }
 
   #arrowlabel {
     margin-top: -20px;
@@ -2157,7 +2542,7 @@ footer .footer-below {
     padding-top: 3.5%; }
 
   .portfolioh2 {
-    padding-top: 1%; }
+    padding-top: 5px; }
 
   .portfoliohr {
     margin-top: 20px;
@@ -2176,6 +2561,10 @@ footer .footer-below {
     padding: 10px 30px;
     font-size: 30px; }
 
+  #skillsid:after {
+    margin-top: 5px;
+  }
+
   .skillbox {
     width: 50%;
     margin-left: 25%;
@@ -2192,11 +2581,19 @@ footer .footer-below {
     padding-top: 3%; }
 
   .skillsh2 {
-    margin-top: 12px; }
+    margin-top: 40px; }
 
   .skillshr {
     margin-top: 20px;
     margin-bottom: 18px; }
+
+  #about .btn {
+    margin-bottom: 10%;
+  }
+
+  #aboutid:after {
+    margin-top: -5px;
+  }
 
   .aboutsection1.in-view, .aboutsection2.in-view, .aboutsection3.in-view {
     margin-left: 25%;
@@ -2204,6 +2601,10 @@ footer .footer-below {
 
   #about p {
     font-size: 21px; }
+
+  .abouth2 {
+    margin-top: 25px;
+  }
 
   .abouthr {
     margin-top: 20px; }
@@ -2242,6 +2643,10 @@ footer .footer-below {
     margin-top: -10px;
     font-size: 30px; }
 
+  .contacth2 {
+    margin-top: 25px;
+  }
+
   .contacthr {
     border-top: 4px solid #01BCF5;
     padding-bottom: 30px; }
@@ -2250,6 +2655,10 @@ footer .footer-below {
     text-align: left;
     margin-top: -10px;
     font-size: 32.5px; }
+
+  #contact .btn {
+    margin-top: 25px;
+  }
 
   .footerp {
     padding-top: 1%;
@@ -2266,7 +2675,7 @@ footer .footer-below {
 
   .socialbutton1, .socialbutton2 {
     margin-right: 5%; } }
-@media only screen and (min-width: 1200px) and (max-width: 1490px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
   /*Default*/
   #backtotoparrow {
     bottom: 27px;
@@ -2290,6 +2699,10 @@ footer .footer-below {
   #animation {
     width: 60%;
     margin-left: 7.5px; }
+
+  header {
+    height: 725px;
+  }
 
   header .intro-text .name1 {
     margin-top: 30px;
@@ -2316,13 +2729,21 @@ footer .footer-below {
   #headerarrow {
     display: none; }
 
+  #maincontent:after  {
+    margin-top: 5px;
+  }
+
+  #experienceid:after {
+    margin-top: 5px;
+  }
+
   .experience-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  section.experience .experience-header h2 {
+  .experience-header h2 {
     font-size: 30px;
   }
 
@@ -2335,18 +2756,56 @@ footer .footer-below {
   .fullstack {
     padding-top: 3.5%; }
 
+  #portfolioid:after {
+    margin-top: 5px;
+  }
+
   #portfolioarrow {
     margin-left: 43%; }
 
+  .portfoliorow1 {
+    opacity: 1;
+    -webkit-transition: all 1s 0.2s ease-in-out;
+    -webkit-transform: translate3d(-100px, 0px, 0px); }
+
+  .portfoliorow1.in-view {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+
+  .portfoliorow2 {
+    opacity: 0;
+    -webkit-transition: all 1s 0.2s ease-in-out;
+    -webkit-transform: translate3d(100px, 0px, 0px); }
+
+  .portfoliorow2.in-view {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+
+  .portfoliorow3 {
+    opacity: 0;
+    -webkit-transition: all 1s 0.2s ease-in-out;
+    -webkit-transform: translate3d(-100px, 0px, 0px); }
+
+  .portfoliorow3.in-view {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+
+  #skillsid:after {
+    margin-top: 5px;
+  }
   .skillbox {
     margin-top: 5%; }
 
   .skillsh2 {
-    margin-top: 10px; }
+    margin-top: 30px; }
 
   .skillshr {
     margin-top: 25px;
     margin-bottom: 18px; }
+
+  .abouth2 {
+    margin-top: 20px;
+  }
 
   .abouthr {
     margin-top: 20px; }
@@ -2379,6 +2838,14 @@ footer .footer-below {
 
   section.resume {
     padding-left: 14.25%; }
+
+  #contact .btn {
+    margin-top: 25px;
+  }
+
+  .contacth2 {
+    margin-top: 25px;
+  }
 
   #name, #email, #phone {
     color: white;
@@ -2452,7 +2919,8 @@ footer .footer-below {
     padding-left: 3%; }
 
   #maincontent:after {
-    top: 755px; }
+    margin-top: 10px;
+  }
 
   #headerarrow {
     display: none; }
@@ -2463,13 +2931,17 @@ footer .footer-below {
   .fullstack {
     padding-top: 3.5%; }
 
+  #experienceid:after {
+    margin-top: 3px;
+  }
+
   .experience-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  section.experience .experience-header h2 {
+  .experience-header h2 {
     font-size: 35px;
   }
 
@@ -2480,11 +2952,15 @@ footer .footer-below {
     margin-top: 10%; }
 
   .skillsh2 {
-    margin-top: 10px; }
+    margin-top: 30px; }
 
   .skillshr {
     margin-top: 25px;
     margin-bottom: 18px; }
+
+  .abouth2 {
+    margin-top: 20px;
+  }
 
   .abouthr {
     margin-top: 20px;
@@ -2529,6 +3005,10 @@ footer .footer-below {
     height: 90px;
     margin-top: -10px; }
 
+  .contacth2 {
+    margin-top: 25px;
+  }
+
   .contacthr {
     border-top: 4px solid #01BCF5;
     padding-bottom: 30px; }
@@ -2537,6 +3017,10 @@ footer .footer-below {
     background: #444444;
     padding: 65px 0px 15px 0px;
     color: black; }
+
+  section.contact {
+    padding-bottom: 30px;
+  }
 
   .footerp {
     /* padding-top: 1%; */
