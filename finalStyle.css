@@ -378,17 +378,6 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 200; }
 
-@media (min-width: 768px) {
-  header .container {
-    padding-top: 175px;
-    padding-bottom: 50px; }
-
-  header .intro-text .name {
-    font-size: 4.75em; }
-
-  header .intro-text .skills {
-    font-size: 1.75em; } }
-
 .name1, .name2 {
   font-weight: 800; }
 
@@ -547,7 +536,7 @@ section.experience h3 {
 .experience-bullet {
   display: flex;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .experience-p {
@@ -1349,7 +1338,7 @@ footer .footer-below {
     -webkit-transform: translate3d(0px, 0px, 0px); }
 
   .portfoliorow2 {
-    -webkit-transform: translate3d(-150px, 0px, 0px); }
+    -webkit-transform: translate3d(150px, 0px, 0px); }
 
   .portfoliorow2.in-view {
     -webkit-transform: translate3d(0px, 0px, 0px); }
@@ -1362,6 +1351,10 @@ footer .footer-below {
 
   .portfolio-modal .modal-content h2 {
     font-size: 29px; }
+
+  #portfolioid {
+    overflow: hidden;
+  }
 
   .linkpic {
     width: 15%;
@@ -1795,309 +1788,8 @@ footer .footer-below {
     font-size: 30px;
     padding-right: 0px; } }
 
-@media only screen and (min-width: 770px) and (max-width: 815px) {
-  /*Mobile landscape*/
-  #backtotoparrow {
-    bottom: 23px;
-    margin-left: 91.8%;
-    width: 50px;
-    height: 50px; }
-
-  header {
-    height: 707.5px;
-  }
-
-  #arrowlabel {
-    margin-top: -15px;
-    font-size: 22.5px; }
-
-  header .container {
-    padding-bottom: 50px; }
-
-  .navbar-custom .navbar-nav {
-    font-size: 15px;
-    margin-left: 1.5%;
-    margin-top: 0.25%;
-    letter-spacing: 1px;
-    padding-top: 1px; }
-
-  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    font-size: 20px;
-    margin-top: 2.4px; }
-
-  .container {
-    width: 800px;
-  }
-
-  #animation {
-    width: 80%;
-    margin-top: 15px;
-    margin-left: 1px; }
-
-  header .intro-text .name1 {
-    /*word-wrap: break-word;*/
-    margin-top: 20px;
-    font-size: 70px; }
-
-  header .intro-text .name2 {
-    font-size: 70px;
-    padding-left: 2%; }
-
-  #maincontent {
-    padding-top: 12.5%;
-  }
-
-  .headerh4 {
-    margin-top: 20px;
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 1.5px; }
-
-  .headerh4 {
-    margin-top: 30px;
-    text-align: center;
-    display: inline-block;
-    text-transform: none;
-    letter-spacing: 1.5px; }
-
-  .headerh4-1, .headerh4-2 {
-    padding-left: 3%; }
-
-  header .intro-text .skills1, .skills2, .skills3 {
-    word-wrap: break-word;
-    /*text-align: left;*/
-    font-size: 30px; }
-
-  #headerarrow {
-    display: none; }
-
-  section {
-    padding: 65px 0px 50px 0px; }
-
-  #experienceid {
-    padding: 30px 100px;
-  }
-
-  #experienceid:after {
-    margin-top: 25px;
-  }
-
-  .experienceh2 {
-    margin-top: -5px;
-  }
-
-  .experience-logo {
-    width: 20%;
-    margin-top: 4%;
-  }
-
-  .experience-header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .experience-header-title {
-    width: 100%;
-  }
-
-  .experience-header h2 {
-    font-size: 30px;
-  }
-
-  .experience-header h3 {
-    font-size: 25px;
-    margin-top: -5px;
-  }
-
-  .experience-dates {
-    font-size: 22.5px;
-    margin-top: 15px;
-  }
-
-  .experience-body {
-    margin-left: 0px;
-    margin-top: 25px;
-  }
-
-  .experience-bullet {
-    font-size: 20px;
-    max-width: 100%;
-  }
-
-  .experience-photo-title {
-    height: 35px;
-    padding: 2px 10px;
-  }
-
-  .experience-photo-title p {
-    font-size: 20px;
-  }
-
-  .dot {
-    margin-top: 2px;
-  }
-
-  #portfolioid:after {
-    margin-top: 0px;
-  }
-
-  .portfoliorow1 {
-    -webkit-transform: translate3d(-20px, 0px, 0px); }
-
-  .portfoliorow1.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
-
-  .portfoliorow2 {
-    -webkit-transform: translate3d(-20px, 0px, 0px); }
-
-  .portfoliorow2.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
-
-  .portfoliorow3 {
-    -webkit-transform: translate3d(-20px, 0px, 0px); }
-
-  .portfoliorow3.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
-
-  .portfolio-modal .modal-content h2 {
-    font-size: 31px; }
-
-  .linkpic {
-    width: 9%;
-    padding-top: 12.5px;
-    padding-left: 12.5px; }
-
-  .fullstack {
-    padding-top: 3.5%; }
-
-  .portfolio-modal .modal-content {
-    padding-top: 60px; }
-
-  .portfolio-modal .close-modal .lr .rl {
-    height: 40px; }
-
-  .portfolio-modal .close-modal .lr {
-    height: 40px;
-    margin-left: 20px; }
-
-  .portfolio-modal .close-modal {
-    width: 45px;
-    height: 45px;
-    font-size: 200px;
-    padding-top: 3px;
-    margin-left: -10px; }
-
-  .btn {
-    padding: 4px 12px;
-    font-size: 20px; }
-
-  .portfolioh2 {
-    margin-top: 0px;
-  }
-
-  .portfoliohr {
-    margin-bottom: 1px; }
-
-  .portfolioinfo {
-    font-size: 16px; }
-
-  .dividertitle {
-    font-size: 25px;
-    color: #01A9DB;
-    font-family: 'Lato';
-    margin-top: 20px; }
-
-  section.skills {
-    padding: 55px 0px 50px 0px; }
-
-  .skillbox {
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 1%; }
-
-  .skillinfo {
-    width: 100%;
-    height: 100%;
-    padding-top: 3.5%; }
-
-  .skillinfo_middle {
-    width: 100%;
-    height: 100%;
-    padding-top: 4%; }
-
-  .skillsh2 {
-    margin-top: 35px; }
-
-  #aboutid:after {
-    margin-top: -5px;
-  }
-
-  .abouth2 {
-    margin-top: 25px; }
-
-  #about p {
-    font-size: 19px; }
-
-  .aboutrow {
-    padding-top: 5%; }
-
-  #about1, #about2 {
-    margin-right: 0%; }
-
-  .aboutsectionhr {
-    margin-top: 17.5px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    border-width: 3px; }
-
-  #about2 {
-    padding-top: 7.5%; }
-
-  #aboutid {
-    padding-bottom: 20px;
-  }
-
-  #aboutid:after {
-    margin-top: 12px;
-  }
-
-  #name, #email, #phone {
-    color: white;
-    height: 30px;
-    font-size: 20px; }
-
-  #message {
-    color: white;
-    height: 90px;
-    margin-top: -10px;
-    font-size: 20px; }
-
-  #contact .btn {
-    margin-top: 25px;
-  }
-
-  .contacth2 {
-    margin-top: 25px; }
-
-  .contacthr {
-    border-top: 4px solid #01BCF5;
-    padding-bottom: 20px; }
-
-  .footerp {
-    padding-top: 3%;
-    font-family: Lato;
-    font-size: 25px; }
-
-  .footerh3 {
-    margin-top: -10px;
-    font-size: 30px; }
-
-  .list-inline {
-    /*margin-top: -20px;*/
-    margin-bottom: -15px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 810px) {
-  /*iPad*/
+@media only screen and (min-width: 767px) and (max-width: 815px) {
+  /*Mobile landscape and Tablet*/
   #backtotoparrow {
     bottom: 27.5px;
     margin-left: 90.25%;
@@ -2113,8 +1805,7 @@ footer .footer-below {
     margin-left: -15px; }
 
   .navbar-custom .navbar-nav {
-    font-size: 23px;
-    float: left !important;
+    font-size: 15px;
     letter-spacing: 1px;
     padding-top: 1px; }
 
@@ -2129,8 +1820,7 @@ footer .footer-below {
     padding: 17px 15px 15px 15px; }
 
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    font-size: 35px;
-    margin-left: 55%;
+    font-size: 21px;
     margin-top: 5px; }
 
   #animation {
@@ -2138,12 +1828,16 @@ footer .footer-below {
     width: 80%;
     margin-left: 7.5px; }
 
+  #maincontent:after {
+    margin-top: 25px;
+  }
+
   header {
-    height: 865px;
+    height: 855px;
   }
 
   header .intro-text .name1 {
-    margin-top: 120px;
+    margin-top: 80px;
     font-size: 80px; }
 
   header .intro-text .name2 {
@@ -2180,11 +1874,11 @@ footer .footer-below {
   }
 
   .experienceh2 {
-    margin-top: 2.5px;
+    margin-top: -5px;
   }
 
   .experiencerow1 {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .experience-logo {
@@ -2240,6 +1934,10 @@ footer .footer-below {
     height: 100%;
   }
 
+  #portfolioid {
+    overflow: hidden;
+  }
+
   #portfolioid:after {
     margin-top: 10px;
   }
@@ -2250,7 +1948,7 @@ footer .footer-below {
   .portfoliorow1 {
     opacity: 1;
     -webkit-transition: all 1s 0.2s ease-in-out;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(-150px, 0px, 0px); }
 
   .portfoliorow1.in-view {
     opacity: 1;
@@ -2259,7 +1957,7 @@ footer .footer-below {
   .portfoliorow2 {
     opacity: 0;
     -webkit-transition: all 1s 0.2s ease-in-out;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(150px, 0px, 0px); }
 
   .portfoliorow2.in-view {
     opacity: 1;
@@ -2268,7 +1966,7 @@ footer .footer-below {
   .portfoliorow3 {
     opacity: 0;
     -webkit-transition: all 1s 0.2s ease-in-out;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(-150px, 0px, 0px); }
 
   .portfoliorow3.in-view {
     opacity: 1;
@@ -2278,7 +1976,11 @@ footer .footer-below {
     padding-top: 80px; }
 
   .portfolio-modal .modal-content h2 {
-    font-size: 50px; }
+    font-size: 35px; }
+  
+  .portfolioh2 {
+    margin-top: 5 px;
+  }
 
   .portfoliohr {
     margin-top: 22.5px;
@@ -2286,6 +1988,10 @@ footer .footer-below {
 
   .portfoliorole {
     font-size: 25px; }
+
+  .portfolioinfo {
+    font-size: 20px;
+  }
 
   .dividertitle {
     font-size: 30px; }
@@ -2295,6 +2001,10 @@ footer .footer-below {
 
   p {
     font-size: 20px; }
+
+  #skillsid:after {
+    margin-top: 5px;
+  }
 
   .skillbox {
     width: 60%;
@@ -2318,11 +2028,23 @@ footer .footer-below {
     margin-top: 20px;
     margin-bottom: 18px; }
 
+  #aboutid {
+    padding: 20px;
+  }
+
+  #aboutid:after {
+    margin-top: 25px;
+  }
+
   #about p {
     font-size: 21px; }
 
   .abouthr {
     margin-top: 20px; }
+  
+  .abouth2 {
+    margin-top: -5px;
+  }
 
   .aboutrow {
     padding-top: 1.75%; }
@@ -2505,6 +2227,10 @@ footer .footer-below {
   .portfolio-item {
     width: 100%; }
 
+  #portfolioid {
+    overflow: hidden;
+  }
+
   .portfoliorow1 {
     opacity: 1;
     -webkit-transition: all 1s 0.2s ease-in-out;
@@ -2550,12 +2276,22 @@ footer .footer-below {
 
   .portfoliorole {
     font-size: 35px; }
+  
+  .portfolio-modal .modal-content h2 {
+    font-size: 40px; }
 
+  .portfolioinfo {
+    font-size: 20px; }
+
+  .portfolioinfo p {
+    font-size: 22px;
+  }
+  
   .dividertitle {
     font-size: 40px; }
 
   p {
-    font-size: 28px; }
+    font-size: 25px; }
 
   .btn {
     padding: 10px 30px;
@@ -2675,6 +2411,7 @@ footer .footer-below {
 
   .socialbutton1, .socialbutton2 {
     margin-right: 5%; } }
+
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   /*Default*/
   #backtotoparrow {
@@ -2942,7 +2679,7 @@ footer .footer-below {
   }
 
   .experience-header h2 {
-    font-size: 35px;
+    font-size: 32.5px;
   }
 
   .portfoliorow1 {
