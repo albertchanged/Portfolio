@@ -1355,7 +1355,7 @@ footer .footer-below {
     -webkit-transform: translate3d(0px, 0px, 0px); }
 
   .portfolio-modal .modal-content h2 {
-    font-size: 29px; }
+    font-size: 27.5px; }
 
   #portfolioid {
     overflow: hidden;
@@ -1394,6 +1394,10 @@ footer .footer-below {
     margin-top: -5px;
   }
 
+  .portfoliorole {
+    font-size: 20px;
+  }
+
   .portfoliohr {
     margin-top: 25px;
     margin-bottom: 5px; }
@@ -1404,6 +1408,8 @@ footer .footer-below {
   .video-embed {
     width: 300px;
     height: 315px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .dividertitle {
@@ -2006,10 +2012,10 @@ footer .footer-below {
   }
 
   .portfoliohr {
-    margin-bottom: 5px; }
+    margin-bottom: 20px; }
 
   .portfoliorole {
-    font-size: 25px; }
+    font-size: 27.5px; }
 
   .portfolioinfo {
     font-size: 20px;
@@ -2293,8 +2299,8 @@ footer .footer-below {
     padding-top: 5px; }
 
   .portfoliohr {
-    margin-top: 20px;
-    margin-bottom: 5px; }
+    margin-top: 40px;
+    margin-bottom: 30px; }
 
   .portfoliorole {
     font-size: 35px; }
@@ -2318,6 +2324,10 @@ footer .footer-below {
   .btn {
     padding: 10px 30px;
     font-size: 30px; }
+
+  .video-embed {
+    margin: 20px;
+  }
 
   #skillsid:after {
     margin-top: 5px;
