@@ -515,7 +515,7 @@ section.experience h3 {
 }
 
 .dot-container {
-  margin-top: -2px;
+  margin-top: -1.5px;
 }
 
 .dot {
@@ -1242,7 +1242,7 @@ footer .footer-below {
     padding-bottom: 55px; }
 
   #maincontent:after {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .btn-outline {
@@ -1285,7 +1285,7 @@ footer .footer-below {
     padding: 65px 0px 55px 0px; }
 
   #experienceid {
-    padding: 10px 50px;
+    padding: 10px 35px;
   }
 
   #experienceid:after {
@@ -1336,12 +1336,12 @@ footer .footer-below {
 
   .experience-photo-title {
     padding: 4px 8px 2px 8px;
-    height: 25px;
+    height: 30px;
     margin-bottom: 30px;
   }
 
   .experience-photo-title p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .portfoliorow1 {
@@ -2529,6 +2529,10 @@ footer .footer-below {
   .fullstack {
     padding-top: 3.5%; }
 
+  #portfolioid {
+    overflow: hidden;
+  }
+
   #portfolioid:after {
     margin-top: 5px;
   }
@@ -2652,6 +2656,7 @@ footer .footer-below {
 
   .socialbutton1, .socialbutton2 {
     margin-right: 3%; } }
+
 @media only screen and (min-width: 1500px) and (max-width: 3000px) {
   /*Big screen*/
   #backtotoparrow {
