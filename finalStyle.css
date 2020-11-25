@@ -428,6 +428,10 @@ section {
 
 /* EXPERIENCE SECTION */
 
+#experienceid {
+  -webkit-backface-visibility: hidden;
+}
+
 section.experience {
   background-color: #F2F2F2;
 }
@@ -493,7 +497,7 @@ section.experience h3 {
 
 .experiencerow1.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px); }
+  -webkit-transform: translate3d(0,0,0); }
 
 .experiencerow2 {
   opacity: 0;
@@ -502,7 +506,7 @@ section.experience h3 {
 
 .experiencerow2.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px); }
+  -webkit-transform: translate3d(0,0,0); }
 
 .experience-body {
   margin-top: 22.5px;
@@ -558,6 +562,10 @@ section.experience h3 {
 
 /* PORTFOLIO SECTION */
 
+#portfolioid {
+  -webkit-backface-visibility: hidden;
+}
+
 .portfolioh2 {
   color: black;
   font-weight: 300; }
@@ -569,7 +577,7 @@ section.experience h3 {
 
 .portfoliorow1.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px); }
+  -webkit-transform: translate3d(0,0,0); }
 
 .portfoliorow2 {
   opacity: 0;
@@ -578,7 +586,7 @@ section.experience h3 {
 
 .portfoliorow2.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px); }
+  -webkit-transform: translate3d(0,0,0); }
 
 .portfoliorow3 {
   opacity: 0;
@@ -587,7 +595,7 @@ section.experience h3 {
 
 .portfoliorow3.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px); }
+  -webkit-transform: translate3d(0,0,0); }
 
 #portfolioid:after {
   position: absolute;
@@ -758,9 +766,13 @@ section.experience h3 {
   opacity: 0;
   display: none; }
 
+#skillsid {
+  -webkit-backface-visibility: hidden;
+}
+
 section.skills {
   padding: 55px 0;
-  background: #F4F4F4;
+  background: #DCDCDC;
   color: black; }
 
 .skillbox, .skillinfo_middle {
@@ -774,6 +786,22 @@ section.skills {
 .skillshr {
   margin-top: 30px;
   margin-bottom: 17.5px; }
+
+.skills-title {
+  opacity: 0;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  -webkit-transition: all 0.75s 0.2s ease-in-out;
+  -webkit-transform: translate3d(-150px, 0px, 0px);
+}
+
+.skills-title.in-view {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+
+}
 
 .skillbox {
   opacity: 0;
@@ -918,12 +946,19 @@ section.skills {
   -webkit-transition: opacity 0.5s ease-in-out;
   opacity: 1; }
 
-.skillshape {
-  background-color: #01A9DB;
+.skillshape, .skillshape-secondary {
+  color: white;
   padding-top: 30px;
   border-radius: 6px;
-  padding-bottom: 30px;
-  color: white; }
+  padding-bottom: 30px; }
+
+.skillshape {
+  background-color: #01A9DB;
+}
+
+.skillshape-secondary {
+  background-color: #3B91AA;
+}
 
 .skillcontent {
   padding-top: 15px; }
@@ -932,7 +967,7 @@ section.skills {
   position: absolute;
   width: 0;
   height: 0;
-  border: 100px solid #F4F4F4;
+  border: 100px solid#DCDCDC;;
   border-bottom: 0 solid transparent !important;
   border-right: 100px solid transparent !important;
   border-left: 100px solid transparent !important;
@@ -947,6 +982,10 @@ section.about {
 
 section.about p {
   color: #2E2E2E; }
+
+#aboutid {
+  -webkit-backface-visibility: hidden;
+}
 
 #aboutid:after {
   position: absolute;
@@ -1012,7 +1051,7 @@ section.about p {
 
 .aboutsection1.in-view, .aboutsection2.in-view, .aboutsection3.in-view {
   opacity: 1;
-  -webkit-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0,0,0);
   background-color: white;
   padding-left: 20px;
   padding-right: 15px;
@@ -1348,19 +1387,19 @@ footer .footer-below {
     -webkit-transform: translate3d(-150px, 0px, 0px); }
 
   .portfoliorow1.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow2 {
     -webkit-transform: translate3d(150px, 0px, 0px); }
 
   .portfoliorow2.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow3 {
     -webkit-transform: translate3d(-150px, 0px, 0px); }
 
   .portfoliorow3.in-view {
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfolio-modal .modal-content h2 {
     font-size: 27.5px; }
@@ -1427,6 +1466,13 @@ footer .footer-below {
   section.skills {
     padding: 55px 0px 55px 0px; }
 
+  .skills-title {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .skillbox {
     margin-top: 2.5%; }
 
@@ -1434,10 +1480,10 @@ footer .footer-below {
     margin-top: 25px; }
 
   .skillinfo {
-    padding-top: 3%; }
+    padding-top: 2.75%; }
 
   .skillinfo_middle {
-    padding-top: 3%; }
+    padding-top: 2.75%; }
 
   section.about {
     padding: 65px 0px 60px 0px; }
@@ -1656,7 +1702,7 @@ footer .footer-below {
 
   .portfoliorow1.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow2 {
     opacity: 0;
@@ -1665,7 +1711,7 @@ footer .footer-below {
 
   .portfoliorow2.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow3 {
     opacity: 0;
@@ -1674,7 +1720,7 @@ footer .footer-below {
 
   .portfoliorow3.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfolio-modal .modal-content h2 {
     font-size: 29px; }
@@ -1822,7 +1868,7 @@ footer .footer-below {
     font-size: 30px;
     padding-right: 0px; } }
 
-@media only screen and (min-width: 568px) and (max-width: 1000px) {
+@media only screen and (min-width: 539px) and (max-width: 1000px) {
   /*Mobile landscape and Tablet*/
   #backtotoparrow {
     bottom: 27.5px;
@@ -1985,7 +2031,7 @@ footer .footer-below {
 
   .portfoliorow1.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow2 {
     opacity: 0;
@@ -1994,7 +2040,7 @@ footer .footer-below {
 
   .portfoliorow2.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow3 {
     opacity: 0;
@@ -2003,7 +2049,7 @@ footer .footer-below {
 
   .portfoliorow3.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfolio-modal .modal-content {
     padding-top: 80px; }
@@ -2040,6 +2086,13 @@ footer .footer-below {
 
   #skillsid:after {
     margin-top: 5px;
+  }
+
+  .skills-title {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .skillbox {
@@ -2274,7 +2327,7 @@ footer .footer-below {
 
   .portfoliorow1.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow2 {
     opacity: 0;
@@ -2283,7 +2336,7 @@ footer .footer-below {
 
   .portfoliorow2.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow3 {
     opacity: 0;
@@ -2292,7 +2345,7 @@ footer .footer-below {
 
   .portfoliorow3.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfolio-modal .modal-content {
     padding-top: 80px; }
@@ -2339,6 +2392,13 @@ footer .footer-below {
 
   #skillsid:after {
     margin-top: 5px;
+  }
+
+  .skills-title {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .skillbox {
@@ -2547,7 +2607,7 @@ footer .footer-below {
 
   .portfoliorow1.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow2 {
     opacity: 0;
@@ -2556,7 +2616,7 @@ footer .footer-below {
 
   .portfoliorow2.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   .portfoliorow3 {
     opacity: 0;
@@ -2565,11 +2625,17 @@ footer .footer-below {
 
   .portfoliorow3.in-view {
     opacity: 1;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
+    -webkit-transform: translate3d(0,0,0); }
 
   #skillsid:after {
     margin-top: 5px;
   }
+
+  .skills-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
   .skillbox {
     margin-top: 5%; }
 

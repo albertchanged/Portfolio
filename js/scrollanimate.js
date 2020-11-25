@@ -3,6 +3,7 @@ var $experiencerow2 = $('.experiencerow2');
 var $portfoliorow1 = $('.portfoliorow1');
 var $portfoliorow2 = $('.portfoliorow2');
 var $portfoliorow3 = $('.portfoliorow3');
+var $skilltitle = $('.skills-title');
 var $skill = $('.skillbox');
 
 var $about1 = $('.aboutsection1');
@@ -132,6 +133,25 @@ function check_if_in_view() {
     } else {
       $element.removeClass('in-view');
     }
+  });
+
+  // Each Skill section title
+  $.each($skilltitle, function(i) {
+    var $element = $(this);
+
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+ 
+    // Check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+    
+    $(this).delay(1000*i).fadeIn(300);
   });
 
   // Each Skill box
