@@ -13,11 +13,11 @@ body {
 
 p {
   font-size: 17px;
-  font-family: 'Helvetica Neue', 'Open Sans', Helvetica, Arial, sans-serif; }
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 
 p.small {
   font-size: 16px;
-  font-family: 'Helvetica Neue', 'Open Sans', Helvetica, Arial, sans-serif; }
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 
 .light {
   font-weight: 400; }
@@ -538,6 +538,7 @@ section.experience h3 {
 }
 
 .experience-bullet {
+  font-family: "Open Sans";
   display: flex;
   margin-bottom: 10px;
   font-size: 18px;
